@@ -1,0 +1,119 @@
+
+.row-data{
+    margin-bottom: 30px;
+}
+
+.page-container {
+    max-width: 1024px;
+    font-family: "Montserrat", "Verdana", sans-serif;
+    margin: auto;
+}
+
+.header {
+    margin-bottom: 18px;
+}
+
+.empty-space {
+    height: 120px;
+}
+
+.profile-picture {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 950px) {
+    .icon {
+        padding-left: 1px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .icon {
+        padding-left: 4px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icon {
+        padding-left: 5px;
+    }
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.miscbox {
+    height: 120px;
+    border: 1px solid #ccc; 
+    overflow: auto;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;   
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc; 
+}
+/* End scrollbar styles */
+
+/* Separators */
+/* Source: 
+https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line */
+
+.strike {
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > h2:before,
+.strike > h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #ccc;
+}
+
+.strike > h2:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > h2:after {
+    left: 100%;
+    margin-left: 15px;
+}
+/* End separators */
