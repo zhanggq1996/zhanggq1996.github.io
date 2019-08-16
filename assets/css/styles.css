@@ -60,6 +60,14 @@
     overflow: auto;
 }
 
+.project-image {
+    width: 100%;
+}
+
+.project-image img{
+    max-width: 100%;
+}
+
 /* Scrollbar styles */
 ::-webkit-scrollbar {
     width: 12px;
