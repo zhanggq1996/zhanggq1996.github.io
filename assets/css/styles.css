@@ -60,6 +60,10 @@
     overflow: auto;
 }
 
+.project{
+    margin-bottom: 10px;
+}
+
 .project-image {
     width: 100%;
 }
