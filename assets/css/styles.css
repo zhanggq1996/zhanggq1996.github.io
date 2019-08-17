@@ -129,3 +129,9 @@ https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a
     margin-left: 15px;
 }
 /* End separators */
+
+/* Text hover effects */
+.hoverarea:hover .hoverarea-glowtext  {
+    color: #4CD0EB;
+}
+/* End text hover effects */
