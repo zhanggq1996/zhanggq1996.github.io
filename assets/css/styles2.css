@@ -23,10 +23,9 @@ h2 {
     margin-top: 30px;
 }
 
-a:link    {color:#000;}  /* unvisited link  */
-a:visited {color:#000;}  /* visited link    */
-/* a:hover   {color:#000;}  /* mouse over link */ */
-a:active  {color:#000;}  /* selected link   */
+a {
+   color: #4CD0EB;
+}
 
 .icon img {
     width: 32px;
@@ -98,3 +97,7 @@ a:active  {color:#000;}  /* selected link   */
 .project-container:hover .project-title a {
     color: #4CD0EB;
 }
+
+.project-container a:link    {color:#000;}  /* unvisited link  */
+.project-container a:visited {color:#000;}  /* visited link    */
+.project-container a:active  {color:#000;}  /* selected link   */
